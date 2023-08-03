@@ -1,0 +1,9 @@
+name: PotionBlackist
+version: '1.0'
+main: me.maladik.potionblackist.PotionBlackist
+api-version: 1.17
+commands:
+  potionblacklist:
+    aliases: pb
+    description: Add, remove or check if a player is blacklisted for potions
+    permission: potion.blacklist
